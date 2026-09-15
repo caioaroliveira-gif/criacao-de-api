@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  }
+}
